@@ -39,36 +39,19 @@
 }());
 
 var NotificationScreen = {
-  get touchable() {
-    return this.touchables[this.locked ? 0 : 1];
-  },
-
-  get screenHeight() {
-    var screenHeight = this._screenHeight;
-    if (!screenHeight) {
-      screenHeight = this.touchables[0].getBoundingClientRect().height;
-      this._screenHeight = screenHeight;
-    }
-    return screenHeight;
-  },
-
   get container() {
     delete this.container;
     return this.container = document.getElementById('notifications-container');
   },
 
-  init: function ns_init(touchables) {
-    this.touchables = touchables;
-    this.attachEvents(touchables);
-
+  init: function ns_init() {
     window.addEventListener('mozChromeEvent', function notificationListener(e) {
       var detail = e.detail;
       switch (detail.type) {
         case 'desktop-notification':
           NotificationScreen.addNotification(detail);
 
-          var hasNotifications = document.getElementById('state-notifications');
-          hasNotifications.dataset.visible = 'true';
+          StatusBar.updateNotification(true);
           break;
 
         case 'permission-prompt':
@@ -105,93 +88,10 @@ var NotificationScreen = {
       });
       window.dispatchEvent(event);
 
-      // And hide the notification tray
+      // And hide the Utility Tray
       if (!closing)
-        self.unlock();
+        UtilityTray.unlock();
     });
-  },
-
-  onTouchStart: function ns_onTouchStart(e) {
-    this.startX = e.pageX;
-    this.startY = e.pageY;
-    this.onTouchMove({ pageY: e.pageY + 32 });
-  },
-
-  onTouchMove: function ns_onTouchMove(e) {
-    var dy = -(this.startY - e.pageY);
-    if (this.locked)
-      dy += this.screenHeight;
-    dy = Math.min(this.screenHeight, dy);
-
-    var style = this.touchables[0].style;
-    style.MozTransition = '';
-    style.MozTransform = 'translateY(' + dy + 'px)';
-  },
-
-  onTouchEnd: function ns_onTouchEnd(e) {
-    var dy = -(this.startY - e.pageY);
-    var offset = Math.abs(dy);
-    if ((!this.locked && offset > this.screenHeight / 4) ||
-        (this.locked && offset < 10))
-      this.lock();
-    else
-      this.unlock();
-  },
-
-  unlock: function ns_unlock(instant) {
-    var style = this.touchables[0].style;
-    style.MozTransition = instant ? '' : '-moz-transform 0.2s linear';
-    style.MozTransform = 'translateY(0)';
-    this.locked = false;
-  },
-
-  lock: function ns_lock(dy) {
-    var style = this.touchables[0].style;
-    style.MozTransition = '-moz-transform 0.2s linear';
-    style.MozTransform = 'translateY(100%)';
-    this.locked = true;
-  },
-
-  attachEvents: function ns_attachEvents(view) {
-    AddEventHandlers(window, this, ['touchstart', 'touchmove', 'touchend']);
-  },
-
-  detachEvents: function ns_detachEvents() {
-    RemoveEventHandlers(window, this, ['touchstart', 'touchmove', 'touchend']);
-  },
-
-  handleEvent: function(evt) {
-    var target = evt.target;
-    switch (evt.type) {
-    case 'touchstart':
-      if (LockScreen.locked)
-        return;
-      if (target != this.touchable)
-        return;
-      this.active = true;
-
-      target.setCapture(this);
-      this.onTouchStart(evt.touches[0]);
-      break;
-    case 'touchmove':
-      if (!this.active)
-        return;
-
-      this.onTouchMove(evt.touches[0]);
-      break;
-    case 'touchend':
-      if (!this.active)
-        return;
-      this.active = false;
-
-      document.releaseCapture();
-      this.onTouchEnd(evt.changedTouches[0]);
-      break;
-    default:
-      return;
-    }
-
-    evt.preventDefault();
   },
 
   addNotification: function ns_addNotification(detail) {
@@ -232,8 +132,10 @@ var NotificationScreen = {
     var notifSelector = 'div[data-type="desktop-notification"]';
     var desktopNotifications = this.container.querySelectorAll(notifSelector);
     if (desktopNotifications.length == 0) {
-      var hasNotifications = document.getElementById('state-notifications');
-      delete hasNotifications.dataset.visible;
+      StatusBar.updateNotification(false);
     }
   }
 };
+
+NotificationScreen.init();
+
