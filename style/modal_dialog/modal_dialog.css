@@ -1,6 +1,7 @@
 #modal-dialog-alert,
 #modal-dialog-confirm,
 #modal-dialog-prompt,
+#modal-dialog-custom-prompt,
 #authentication-dialog,
 #authentication-dialog-http,
 #modal-dialog-error,
@@ -25,6 +26,7 @@
 #modal-dialog-alert.visible,
 #modal-dialog-confirm.visible,
 #modal-dialog-prompt.visible,
+#modal-dialog-custom-prompt.visible,
 #modal-dialog-error.visible,
 #modal-dialog-select-one.visible {
   display: block;
