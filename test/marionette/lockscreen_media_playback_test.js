@@ -1,8 +1,8 @@
 'use strict';
 
-marionette('media playback tests', function() {
-  var MediaPlaybackActions, actions;
-  var MediaPlaybackChecks, check;
+marionette('LockScreen media playback tests', function() {
+  var LockScreenMediaPlaybackActions, actions;
+  var LockScreenMediaPlaybackChecks, checks;
   var FakeMusic = require('./lib/media_playback_fake_music.js');
   var fakeMusicInfo = new FakeMusic();
   var apps = {};
@@ -20,96 +20,97 @@ marionette('media playback tests', function() {
   });
 
   setup(function() {
-    MediaPlaybackActions = require('./lib/media_playback_actions');
-    MediaPlaybackChecks = require('./lib/media_playback_checks');
-    actions = (new MediaPlaybackActions()).start(client);
-    check = (new MediaPlaybackChecks()).start(client);
-  });
-
-  test('could pull the tray', function() {
-    actions
-      .pullDownTray()
-      .pullUpTray();
+    LockScreenMediaPlaybackActions =
+      require('./lib/lockscreen_media_playback_actions.js');
+    LockScreenMediaPlaybackChecks =
+      require('./lib/lockscreen_media_playback_checks.js');
+    actions = (new LockScreenMediaPlaybackActions()).start(client);
+    checks = (new LockScreenMediaPlaybackChecks()).start(client);
   });
 
   test('should show now playing info', function() {
     actions
+      .unlockScreen()
       .openMusicApp()
       .playAlbumOne()
-      .pullDownTray();
-    check
+      .lockScreen();
+    checks
       .containerShown(true)
-      .nowPlayingText('Some Artist', 'Some Song');
+      .nowPlayingText('Some Song', 'Some Artist');
   });
 
   test('should hide now playing info by stopping', function() {
     actions
+      .unlockScreen()
       .openMusicApp()
       .playAlbumOne()
       .stopPlay()
-      .pullDownTray();
-    check
+      .lockScreen();
+    checks
       .containerShown(false);
   });
 
   test('should hide now playing info by exiting', function() {
     actions
+      .unlockScreen()
       .openMusicApp()
       .playAlbumOne()
-      .pullDownTray();
-    check
+      .lockScreen();
+    checks
       .containerShown(true);
     actions
       .killMusicApp();
-    check
+    checks
       .containerShown(false);
   });
 
   test('should update play/pause icon correctly', function() {
     actions
+      .unlockScreen()
       .openMusicApp()
       .playAlbumOne()
-      .pullDownTray();
-    check
+      .lockScreen();
+    checks
       .containerShown(true)
       .isPlaying(true);
     actions
-      .pullUpTray()
+      .unlockScreen()
       .switchToMusicApp()
       .togglePausePlay()
-      .pullDownTray();
-    check
+      .lockScreen();
+    checks
       .isPlaying(false);
     actions
-      .pullUpTray()
+      .unlockScreen()
       .switchToMusicApp()
       .togglePausePlay()
-      .pullDownTray();
-    check
+      .lockScreen();
+    checks
       .isPlaying(true);
   });
 
   test('should hide controls when interrupted', function() {
     actions
+      .unlockScreen()
       .openMusicApp()
       .playAlbumOne()
-      .pullDownTray();
-    check
+      .lockScreen();
+    checks
       .containerShown(true)
       .isPlaying(true);
     actions
-      .pullUpTray()
+      .unlockScreen()
       .switchToMusicApp()
       .interruptMusic()
-      .pullDownTray();
-    check
+      .lockScreen();
+    checks
       .containerShown(false);
     actions
-      .pullUpTray()
+      .unlockScreen()
       .switchToMusicApp()
       .interruptMusic()
-      .pullDownTray();
-    check
+      .lockScreen();
+    checks
       .containerShown(true);
   });
 });
