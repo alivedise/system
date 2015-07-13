@@ -1,8 +1,8 @@
 'use strict';
 /* global MockNavigatorSettings, MockL10n, SettingsMigrator */
 
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 requireApp('system/js/migrators/settings_migrator.js');
 
 suite('system/settings_migrator', function() {

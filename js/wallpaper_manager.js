@@ -20,7 +20,7 @@
    * If the wallpaper value read from the settings DB is a URL this
    * module converts it to a blob. If the wallpaper image does not
    * exactly match the size of the screen, this module resizes it
-   * (lazy-loading shared/js/image_utils.js when needed). If the
+   * (lazy-loading shared/image_utils/image_utils.js when needed). If the
    * wallpaper value is converted to a blob or resized, the modified
    * value is saved back to the settings DB so that it will not need
    * to be modified the next time it is read.
@@ -239,7 +239,7 @@
     // this method falls back on the default wallpaper by calling
     // _toBlob() with the default wallpaper URL.
     //
-    // This method lazy-loads ImageUtils from shared/js/image_utils.js.
+    // This method lazy-loads ImageUtils from shared/image_utils/image_utils.js.
     // Once a wallpaper has had its size checked once, it is marked as
     // valid in the settings db, so these image utilities will not
     // need to be loaded into the system app on subsequent reboots.
@@ -274,7 +274,7 @@
       // Note that this utility funtion can determine the size of an image
       // without decoding it and if the image is already the right size
       // it will not modify it.
-      LazyLoader.load('shared/js/image_utils.js', function() {
+      LazyLoader.load('shared/image_utils/image_utils.js', function() {
         ImageUtils
           .resizeAndCropToCover(blob, screenWidth, screenHeight, ImageUtils.PNG)
           .then(

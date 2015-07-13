@@ -5,15 +5,15 @@
 require('/apps/system/js/base_ui.js');
 require('/apps/system/js/base_icon.js');
 require('/apps/system/js/service.js');
-require('/shared/test/unit/mocks/mock_settings_listener.js');
+require('/shared/unit_test_mocks/mock_settings_listener.js');
 require(
-  '/shared/test/unit/mocks/mock_navigator_moz_mobile_connections.js');
-require('/shared/test/unit/mocks/mock_icc_helper.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_service.js');
-require('/shared/test/unit/mocks/mock_simslot.js');
-require('/shared/test/unit/mocks/mock_simslot_manager.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+  '/shared/unit_test_mocks/mock_navigator_moz_mobile_connections.js');
+require('/shared/unit_test_mocks/mock_icc_helper.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_simslot.js');
+require('/shared/unit_test_mocks/mock_simslot_manager.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 require('/test/unit/mock_app_window_manager.js');
 require('/test/unit/mock_touch_forwarder.js');
 require('/test/unit/mock_utility_tray.js');

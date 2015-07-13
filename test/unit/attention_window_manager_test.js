@@ -7,7 +7,7 @@ requireApp('system/test/unit/mock_app_window.js');
 requireApp('system/test/unit/mock_attention_window.js');
 requireApp('system/test/unit/mock_homescreen_window.js');
 requireApp('system/test/unit/mock_attention_indicator.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 
 var mocksForAttentionWindowManager = new MocksHelper([
   'AttentionWindow', 'Service',

@@ -1,6 +1,6 @@
 'use strict';
 
-require('/shared/js/idletimer.js');
+require('/shared/idletimer/idletimer.js');
 
 function switchProperty(originObject, prop, stub, reals, useDefineProperty) {
   if (!useDefineProperty) {

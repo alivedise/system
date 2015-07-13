@@ -9,13 +9,13 @@
 
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_event_target.js');
-requireApp('system/shared/test/unit/mocks/mock_dom_request.js');
+requireApp('system/shared/unit_test_mocks/mock_event_target.js');
+requireApp('system/shared/unit_test_mocks/mock_dom_request.js');
 requireApp('system/test/unit/mock_activity.js');
 requireApp('system/test/unit/mock_navigator_get_device_storage.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_service.js');
-requireApp('system/shared/test/unit/mocks/mock_notification.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_notification.js');
 
 var mocksForScreenshot = new MocksHelper([
   'Service'

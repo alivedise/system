@@ -1,8 +1,8 @@
 'use strict';
 /* global MockL10n, MocksHelper, STKHelper */
 
-require('/shared/js/stk_helper.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/stk_helper/stk_helper.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 'use strict';
 

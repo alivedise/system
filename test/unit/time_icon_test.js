@@ -2,8 +2,8 @@
 'use strict';
 
 
-require('/shared/test/unit/mocks/mock_l10n.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 requireApp('system/js/base_ui.js');
 requireApp('system/js/base_icon.js');
 requireApp('system/js/clock.js');

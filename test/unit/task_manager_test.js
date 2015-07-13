@@ -10,11 +10,11 @@ requireApp('system/test/unit/mock_stack_manager.js');
 requireApp('system/test/unit/mock_app_window.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
 
-require('/shared/js/event_safety.js');
-require('/shared/js/sanitizer.js');
-require('/shared/test/unit/mocks/mock_service.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/event_safety/event_safety.js');
+require('/shared/sanitizer/sanitizer.js');
+require('/shared/unit_test_mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 var mocksForTaskManager = new MocksHelper([
   'StackManager',

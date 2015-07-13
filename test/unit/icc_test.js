@@ -4,18 +4,18 @@
 'use strict';
 
 
-require('/shared/test/unit/mocks/mock_service.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 requireApp('system/test/unit/mock_system_icc_worker.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_icc_manager.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_set_message_handler.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_mobile_connections.js');
-require('/shared/test/unit/mocks/mock_dump.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_icc_manager.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_set_message_handler.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_mobile_connections.js');
+require('/shared/unit_test_mocks/mock_dump.js');
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/js/lazy_loader.js');
+require('/shared/lazy_loader/lazy_loader.js');
 require('/js/input_window_manager.js');
-require('/shared/test/unit/mocks/mock_stk_helper.js');
+require('/shared/unit_test_mocks/mock_stk_helper.js');
 
 var mocksForIcc = new MocksHelper([
   'Dump',

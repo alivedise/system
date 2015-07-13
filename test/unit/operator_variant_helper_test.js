@@ -2,10 +2,10 @@
           MockNavigatorMozIccManager, MockNavigatorSettings */
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_icc_manager.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_icc_manager.js');
 
-requireApp('system/shared/js/operator_variant_helper.js');
+requireApp('system/shared/operator_variant_helper/operator_variant_helper.js');
 
 suite('operator variant helper', function() {
   const DEVICE_INFO_OS = '1.3.0.0-prerelease';

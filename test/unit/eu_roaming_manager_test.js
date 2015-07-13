@@ -1,11 +1,11 @@
 /* global BaseModule, Promise, Notification, MockSIMSlotManager */
 'use strict';
 
-require('shared/js/lazy_loader.js');
+require('shared/lazy_loader/lazy_loader.js');
 requireApp('system/js/service.js');
 requireApp('system/js/base_module.js');
 requireApp('system/js/eu_roaming_manager.js');
-requireApp('system/shared/test/unit/mocks/mock_simslot_manager.js');
+requireApp('system/shared/unit_test_mocks/mock_simslot_manager.js');
 
 suite('system/EuRoamingManager', function() {
   setup(function() {

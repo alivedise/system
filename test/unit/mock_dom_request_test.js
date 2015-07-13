@@ -1,8 +1,8 @@
 'use strict';
 /* global MockDOMRequest */
 
-require('/shared/test/unit/mocks/mock_event_target.js');
-require('/shared/test/unit/mocks/mock_dom_request.js');
+require('/shared/unit_test_mocks/mock_event_target.js');
+require('/shared/unit_test_mocks/mock_dom_request.js');
 
 suite('MockDOMRequest', function() {
   test('fireSuccess()', function(done) {

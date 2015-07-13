@@ -101,7 +101,7 @@ MediaPlaybackWidget.prototype = {
   // requirement, we have to monitor the wired headphones and bluetooth headset
   // statuses in system, then decide if we want to pause the music player after
   // one of the headphones/headset is disconnected.
-  // We should move this logic back to shared/js/media/remote_controls.js since
+  // We should move this logic back to shared/media/remote_controls/media/remote_controls.js since
   // the remote logics should be handled in remote controls module.
   handleAudioRouteChange: function mpw_handleAudioRouteChange(event, reason) {
     var isWiredHeadphonesConnected = false;

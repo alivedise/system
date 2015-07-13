@@ -335,7 +335,7 @@
      * setting this parameter to true causes the LockScreenSlide to render
      * the slider specified in that bugzilla issue
      */
-    LazyLoader.load(['shared/js/lockscreen_slide.js']).then(() => {
+    LazyLoader.load(['shared/lockscreen_slide/lockscreen_slide.js']).then(() => {
       this._unlocker = new LockScreenSlide({useNewStyle: true});
     }).catch(function(err) {console.error(err);});
     this.getAllElements();
@@ -508,7 +508,7 @@
 
   LockScreen.prototype.startConnectionInfoManager = function() {
     LazyLoader.load(
-      ['shared/js/lockscreen_connection_info_manager.js']).then(() => {
+      ['shared/lockscreen_connection_info_manager/lockscreen_connection_info_manager.js']).then(() => {
         this._lockscreenConnInfoManager =
           new LockScreenConnInfoManager(this.connStates);
       }).catch(function(err) {console.error(err);});

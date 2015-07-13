@@ -2,12 +2,12 @@
 /* global MocksHelper, MockSpeechSynthesis, MockSpeechSynthesisUtterance,
           Accessibility, SettingsListener, MockL10n */
 
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
 requireApp('system/test/unit/mock_speech_synthesis.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
 requireApp('system/js/accessibility.js');
 requireApp('system/js/accessibility_quicknav_menu.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 var mocksForA11y = new MocksHelper([
   'SettingsListener',

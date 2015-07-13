@@ -55,7 +55,7 @@ suite('FirefoxOS Accounts IAC Client Suite', function() {
     navigator.mozApps.setSelf(app);
     // XXX we have to require() the system under test *after* we define the
     //     MockApp, because the code calls app.connect() as soon as it is loaded
-    require('/shared/js/fxa_iac_client.js', done);
+    require('/shared/fxa_iac_client/fxa_iac_client.js', done);
   });
 
   teardown(function() {

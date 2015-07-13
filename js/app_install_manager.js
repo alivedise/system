@@ -100,8 +100,8 @@
                                this.handleSetupConfirmAction.bind(this);
       this.imeCancelButton.onclick = this.hideIMEList.bind(this);
       this.imeConfirmButton.onclick = this.handleImeConfirmAction.bind(this);
-      LazyLoader.load(['shared/js/template.js',
-                       'shared/js/homescreens/confirm_dialog_helper.js']);
+      LazyLoader.load(['shared/template/template.js',
+                       'shared/homescreens/confirm_dialog_helper/homescreens/confirm_dialog_helper.js']);
 
       // bind these handlers so that we can have only one instance and check
       // them later on

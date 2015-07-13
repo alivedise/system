@@ -3,14 +3,14 @@
           MockActivityWindow, MockPopupWindow, MockSettingsListener */
 /* jshint nonew: false */
 
-require('/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_service.js');
 requireApp('system/test/unit/mock_app_window.js');
 requireApp('system/test/unit/mock_popup_window.js');
 requireApp('system/test/unit/mock_activity_window.js');
 requireApp('system/test/unit/mock_trusted_window.js');
 requireApp('system/test/unit/mock_attention_window.js');
 requireApp('system/test/unit/mock_global_overlay_window.js');
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
 requireApp('system/test/unit/mock_activity.js');
 
 var mocksForChildWindowFactory = new MocksHelper([

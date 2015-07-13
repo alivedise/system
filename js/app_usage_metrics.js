@@ -179,7 +179,7 @@
   // opted in to telemetry.
   //
   AUM.prototype.start = function start() {
-    LazyLoader.load('shared/js/telemetry.js').then(() => {
+    LazyLoader.load('shared/telemetry/telemetry.js').then(() => {
       this.reset();  // initialize our state variables
 
       // Query and listen for changes on the telemetry setting. Start data

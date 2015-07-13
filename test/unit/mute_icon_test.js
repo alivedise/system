@@ -5,7 +5,7 @@ requireApp('system/js/service.js');
 requireApp('system/js/base_ui.js');
 requireApp('system/js/base_icon.js');
 requireApp('system/js/mute_icon.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 suite('system/MuteIcon', function() {
   var subject, realL10n, MockSoundManager;

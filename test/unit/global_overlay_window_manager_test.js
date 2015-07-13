@@ -6,7 +6,7 @@
 
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 requireApp('system/test/unit/mock_app_window.js', () => {
   var mocksForGlobalOverlayWindowManager = new MocksHelper([
     'AppWindow',

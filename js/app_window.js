@@ -1183,7 +1183,7 @@
       if (evt.detail.href) {
         this.webManifestURL = evt.detail.href;
 
-        LazyLoader.load('/shared/js/web_manifest_helper.js').then(() => {
+        LazyLoader.load('/shared/web_manifest_helper/web_manifest_helper.js').then(() => {
           WebManifestHelper.getManifest(this.webManifestURL)
             .then(webManifest => {
               this.webManifest = webManifest;
@@ -2490,7 +2490,7 @@
     placeObj = {}, siteObj = {}) {
 
     return new Promise((resolve, reject) => {
-      LazyLoader.load('/shared/js/icons_helper.js').then(() => {
+      LazyLoader.load('/shared/icons_helper/icons_helper.js').then(() => {
         IconsHelper.getIconBlob(origin, iconSize, placeObj, siteObj)
           .then(iconObject => {
             var iconUrl = URL.createObjectURL(iconObject.blob);

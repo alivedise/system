@@ -5,9 +5,9 @@
       MockWebManifestHelper, MockPromise */
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_manifest_helper.js');
-requireApp('system/shared/test/unit/mocks/mock_settings_helper.js');
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
+requireApp('system/shared/unit_test_mocks/mock_manifest_helper.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_helper.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
 requireApp('system/test/unit/mock_context_menu.js');
 requireApp('system/test/unit/mock_applications.js');
 requireApp('system/test/unit/mock_app_chrome.js');
@@ -15,11 +15,11 @@ requireApp('system/test/unit/mock_screen_layout.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
 requireApp('system/test/unit/mock_app_transition_controller.js');
 requireApp('system/test/unit/mock_audio_channel_controller.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
-requireApp('system/shared/test/unit/mocks/mock_permission_settings.js');
-require('/shared/test/unit/mocks/mock_web_manifest_helper.js');
-require('/shared/test/unit/mocks/mock_promise.js');
-require('/shared/test/unit/mocks/mock_icons_helper.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_permission_settings.js');
+require('/shared/unit_test_mocks/mock_web_manifest_helper.js');
+require('/shared/unit_test_mocks/mock_promise.js');
+require('/shared/unit_test_mocks/mock_icons_helper.js');
 
 var mocksForAppWindow = new MocksHelper([
   'Applications', 'SettingsListener',

@@ -18,14 +18,14 @@ requireApp('system/js/base_module.js');
 requireApp('system/js/voicemail.js');
 requireApp('system/js/settings_core.js');
 
-requireApp('system/shared/test/unit/mocks/mock_simslot.js');
-requireApp('system/shared/test/unit/mocks/mock_simslot_manager.js');
+requireApp('system/shared/unit_test_mocks/mock_simslot.js');
+requireApp('system/shared/unit_test_mocks/mock_simslot_manager.js');
 requireApp('system/test/unit/mock_activity.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 requireApp('system/test/unit/mock_navigator_moz_voicemail.js');
 requireApp('system/test/unit/mock_modal_dialog.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_telephony.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_telephony.js');
 
 var mocksForVoicemail = new MocksHelper([
   'ModalDialog'

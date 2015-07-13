@@ -4,7 +4,7 @@
 
 requireApp('system/test/unit/mock_bluetooth.js');
 requireApp('system/test/unit/mock_wifi_manager.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 
 requireApp('system/js/service.js');
 requireApp('system/js/base_module.js');

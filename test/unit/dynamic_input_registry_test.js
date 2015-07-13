@@ -4,11 +4,11 @@
           MockNavigatorMozSettings, MockNavigatorMozSettingsLock,
           MockDOMRequest */
 
-require('/shared/test/unit/mocks/mock_event_target.js');
-require('/shared/test/unit/mocks/mock_dom_request.js');
-require('/shared/js/input_mgmt/mock_navigator_mozsettings.js');
+require('/shared/unit_test_mocks/mock_event_target.js');
+require('/shared/unit_test_mocks/mock_dom_request.js');
+require('/shared/input_mgmt/mock_navigator_mozsettings/input_mgmt/mock_navigator_mozsettings.js');
 
-require('/shared/js/input_mgmt/input_app_list.js');
+require('/shared/input_mgmt/input_app_list/input_mgmt/input_app_list.js');
 require('/js/dynamic_input_registry.js');
 
 var INPUT_APP = {

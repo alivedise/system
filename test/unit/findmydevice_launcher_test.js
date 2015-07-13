@@ -17,16 +17,16 @@
 
 'use strict';
 
-require('/shared/test/unit/mocks/mocks_helper.js');
-require('/shared/test/unit/mocks/mock_moz_activity.js');
-require('/shared/test/unit/mocks/mock_settings_helper.js');
-require('/shared/test/unit/mocks/mock_dump.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_set_message_handler.js');
-require('/shared/test/unit/mocks/mock_notification.js');
-require('/shared/test/unit/mocks/mock_service.js');
-require('/shared/js/findmydevice_iac_api.js');
+require('/shared/unit_test_mocks/mocks_helper.js');
+require('/shared/unit_test_mocks/mock_moz_activity.js');
+require('/shared/unit_test_mocks/mock_settings_helper.js');
+require('/shared/unit_test_mocks/mock_dump.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_set_message_handler.js');
+require('/shared/unit_test_mocks/mock_notification.js');
+require('/shared/unit_test_mocks/mock_service.js');
+require('/shared/findmydevice_iac_api/findmydevice_iac_api.js');
 
 const FMD_RETRIES = 5;
 const FMD_TAG = 'findmydevice.enable-failed';

@@ -4,8 +4,8 @@
           MockService, MockNavigatorSettings, BaseModule */
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_manifest_helper.js');
-require('/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_manifest_helper.js');
+require('/shared/unit_test_mocks/mock_service.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
 requireApp('system/test/unit/mock_orientation_manager.js');
 requireApp('system/test/unit/mock_applications.js');
@@ -20,15 +20,15 @@ requireApp('system/test/unit/mock_homescreen_window_manager.js');
 requireApp('system/test/unit/mock_nfc_handler.js');
 requireApp('system/test/unit/mock_rocketbar.js');
 requireApp('system/test/unit/mock_task_manager.js');
-requireApp('system/shared/test/unit/mocks/mock_shrinking_ui.js');
+requireApp('system/shared/unit_test_mocks/mock_shrinking_ui.js');
 requireApp('system/test/unit/mock_wrapper_factory.js');
 requireApp('system/test/unit/mock_app_window_factory.js');
-requireApp('shared/js/lazy_loader.js');
+requireApp('shared/lazy_loader/lazy_loader.js');
 requireApp('system/js/service.js');
 requireApp('system/js/base_module.js');
 requireApp('system/js/app_window_manager.js');
 requireApp('system/js/settings_core.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 
 var mocksForAppWindowManager = new MocksHelper([
   'OrientationManager', 'ActivityWindow', 'ShrinkingUI',

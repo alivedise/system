@@ -7,8 +7,8 @@
 
 requireApp('system/test/unit/mock_app_window_manager.js');
 requireApp('system/test/unit/mock_layout_manager.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_service.js');
 requireApp('system/js/modal_dialog.js');
 
 var mocksForDialog = new MocksHelper([

@@ -2,7 +2,7 @@
 
 /* global LockScreenPasscodeValidator */
 
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
 requireApp('system/js/lock_screen_passcode_validator.js');
 
 var mocksForLockScreen = new window.MocksHelper([

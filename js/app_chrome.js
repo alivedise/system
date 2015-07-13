@@ -381,12 +381,12 @@
 
   AppChrome.prototype._registerEvents = function ac__registerEvents() {
     if (this.useCombinedChrome()) {
-      LazyLoader.load('shared/js/bookmarks_database.js').then(() => {
+      LazyLoader.load('shared/bookmarks_database/bookmarks_database.js').then(() => {
         this.updateAddToHomeButton();
       }).catch((err) => {
         console.error(err);
       });
-      LazyLoader.load('shared/elements/gaia_overflow_menu/script.js');
+      LazyLoader.load('shared/gaia_overflow_menu/script.js');
 
       this.stopButton.addEventListener('click', this);
       this.reloadButton.addEventListener('click', this);
@@ -812,7 +812,7 @@
     }
     var url = this._currentURL;
 
-    LazyLoader.load('shared/js/icons_helper.js').then(() => {
+    LazyLoader.load('shared/icons_helper/icons_helper.js').then(() => {
       IconsHelper.getIcon(url, null, {icons: favicons}).then(icon => {
         var activity = new MozActivity({
           name: 'save-bookmark',

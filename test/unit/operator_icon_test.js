@@ -3,17 +3,17 @@
           MockMutationObserver */
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_service.js');
-requireApp('system/shared/test/unit/mocks/mock_mutation_observer.js');
-require('/shared/test/unit/mocks/mock_mobile_operator.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_mutation_observer.js');
+require('/shared/unit_test_mocks/mock_mobile_operator.js');
 requireApp('system/js/base_ui.js');
 requireApp('system/js/base_icon.js');
 requireApp('system/js/operator_icon.js');
-requireApp('system/shared/test/unit/mocks/mock_simslot.js');
-requireApp('system/shared/test/unit/mocks/mock_simslot_manager.js');
+requireApp('system/shared/unit_test_mocks/mock_simslot.js');
+requireApp('system/shared/unit_test_mocks/mock_simslot_manager.js');
 requireApp(
-  'system/shared/test/unit/mocks/mock_navigator_moz_mobile_connections.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+  'system/shared/unit_test_mocks/mock_navigator_moz_mobile_connections.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 var mocksForOperatorIcon = new MocksHelper([
   'Service',

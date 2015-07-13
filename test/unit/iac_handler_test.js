@@ -1,7 +1,7 @@
 /* global IACHandler */
 'use strict';
 
-require('/shared/js/iac_handler.js');
+require('/shared/iac_handler/iac_handler.js');
 
 var MockMozSetMessageHandler_listeners = {};
 function MockMozSetMessageHandler(event, listener) {

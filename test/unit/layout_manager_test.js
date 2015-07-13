@@ -2,7 +2,7 @@
           MockAttentionWindow */
 'use strict';
 
-require('/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_service.js');
 requireApp('system/js/layout_manager.js');
 require('/test/unit/mock_app_window.js');
 require('/test/unit/mock_attention_window.js');

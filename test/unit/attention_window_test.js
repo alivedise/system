@@ -4,15 +4,15 @@
 'use strict';
 
 requireApp('system/test/unit/mock_orientation_manager.js');
-requireApp('system/shared/test/unit/mocks/mock_manifest_helper.js');
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
+requireApp('system/shared/unit_test_mocks/mock_manifest_helper.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
 requireApp('system/test/unit/mock_applications.js');
 requireApp('system/test/unit/mock_screen_layout.js');
 requireApp('system/test/unit/mock_layout_manager.js');
 requireApp('system/test/unit/mock_app_chrome.js');
 requireApp('system/test/unit/mock_context_menu.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_service.js');
 
 var mocksForAttentionWindow = new MocksHelper([
   'OrientationManager', 'Applications', 'SettingsListener',

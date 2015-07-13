@@ -5,14 +5,14 @@
           MockNavigatorSettings, telephonyAddCall, MockCall, MockApplications,
           MockDump */
 
-require('/shared/test/unit/mocks/mock_navigator_moz_icc_manager.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_telephony.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_mobile_connections.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-require('/shared/test/unit/mocks/mock_notification.js');
-require('/shared/test/unit/mocks/mock_dump.js');
-require('/shared/test/unit/mocks/dialer/mock_call.js');
-require('/shared/test/unit/mocks/dialer/mock_handled_call.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_icc_manager.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_telephony.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_mobile_connections.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_notification.js');
+require('/shared/unit_test_mocks/mock_dump.js');
+require('/shared/unit_test_mocks/dialer/mock_call.js');
+require('/shared/unit_test_mocks/dialer/mock_handled_call.js');
 require('/apps/system/test/unit/mock_system_icc.js');
 require('/apps/system/test/unit/mock_app_window_manager.js');
 require('/apps/system/test/unit/mock_applications.js');

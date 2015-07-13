@@ -2,8 +2,8 @@
 (function() {
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_manifest_helper.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_manifest_helper.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 requireApp('system/test/unit/mock_secure_window.js');
 requireApp('system/test/unit/mock_secure_window_factory.js');
 requireApp('system/js/secure_window_manager.js');

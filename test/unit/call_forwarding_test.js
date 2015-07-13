@@ -5,13 +5,13 @@
 'use strict';
 
 requireApp('system/test/unit/mock_lazy_loader.js');
-requireApp('system/shared/test/unit/mocks/mock_simslot.js');
-requireApp('system/shared/test/unit/mocks/mock_simslot_manager.js');
+requireApp('system/shared/unit_test_mocks/mock_simslot.js');
+requireApp('system/shared/unit_test_mocks/mock_simslot_manager.js');
 requireApp('system/test/unit/mock_asyncStorage.js');
 requireApp(
-  'system/shared/test/unit/mocks/mock_navigator_moz_mobile_connections.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-requireApp('system/shared/test/unit/mocks/mock_settings_helper.js');
+  'system/shared/unit_test_mocks/mock_navigator_moz_mobile_connections.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_helper.js');
 requireApp('system/js/service.js');
 requireApp('system/js/base_module.js');
 requireApp('system/js/base_ui.js');

@@ -1,7 +1,7 @@
 'use strict';
 /* exported LoadElementHelper */
 
-require('/shared/js/html_imports.js');
+require('/shared/html_imports/html_imports.js');
 
 var LoadElementHelper = {
   load: function(element) {

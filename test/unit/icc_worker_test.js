@@ -3,13 +3,13 @@
 /* global MocksHelper, MockNavigatorMozIccManager, MockSystemICC, icc_worker,
           MockNotificationHelper */
 
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 requireApp('system/test/unit/mock_system_icc.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_icc_manager.js');
-require('/shared/test/unit/mocks/mock_notification_helper.js');
-require('/shared/test/unit/mocks/mock_dump.js');
-require('/shared/test/unit/mocks/mock_stk_helper.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_icc_manager.js');
+require('/shared/unit_test_mocks/mock_notification_helper.js');
+require('/shared/unit_test_mocks/mock_dump.js');
+require('/shared/unit_test_mocks/mock_stk_helper.js');
 requireApp('system/js/icc_worker.js');
 
 var mocksForIcc = new MocksHelper([

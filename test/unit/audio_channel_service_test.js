@@ -1,7 +1,7 @@
 /* global BaseModule, MockAudioChannelController, MockService */
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 requireApp('system/test/unit/mock_audio_channel_controller.js');
 requireApp('system/js/service.js');
 requireApp('system/js/base_module.js');

@@ -2,7 +2,7 @@
 'use strict';
 
 requireApp('system/test/unit/mock_app_window_manager.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
 
 var mocksForService = new MocksHelper([
   'AppWindowManager', 'LazyLoader'

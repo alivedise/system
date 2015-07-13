@@ -1,8 +1,8 @@
 'use strict';
 /* global MocksHelper, DeveloperHud */
 
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 require('/js/devtools/developer_hud.js');
 
 var mocksForDeveloperHud = new MocksHelper([

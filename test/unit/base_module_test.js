@@ -2,9 +2,9 @@
           Deferred */
 'use strict';
 
-require('/shared/test/unit/mocks/mock_service.js');
-require('/shared/test/unit/mocks/mock_promise.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
+require('/shared/unit_test_mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_promise.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
 requireApp('system/test/unit/deferred.js');
 
 var mocksForBaseModule = new MocksHelper([

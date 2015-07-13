@@ -4,10 +4,10 @@
 
 'use strict';
 
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-require('/shared/test/unit/mocks/mock_settings_listener.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_settings_listener.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
 requireApp('system/test/unit/mock_system_banner.js');
 
 var _HTML = `

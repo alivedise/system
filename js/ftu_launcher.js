@@ -14,7 +14,7 @@
     'appopened'
   ];
   FtuLauncher.IMPORTS = [
-    'shared/js/uuid.js',
+    'shared/uuid/uuid.js',
     'js/ftu_ping.js'
   ];
   FtuLauncher.STATES = [
@@ -204,7 +204,7 @@
       window.asyncStorage.setItem('ftu.enabled', false);
       // update the previous_os setting (asyn)
       // so we dont try and handle upgrade again
-      LazyLoader.load(['shared/js/version_helper.js']).then(function() {
+      LazyLoader.load(['shared/version_helper/version_helper.js']).then(function() {
         VersionHelper.updatePrevious();
       }).catch((err) => {
         console.error(err);

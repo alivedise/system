@@ -8,8 +8,8 @@
 require('/js/service.js');
 require('/js/base_module.js');
 require('/js/notifications_system_message.js');
-require('/shared/test/unit/mocks/mock_notification.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_set_message_handler.js');
+require('/shared/unit_test_mocks/mock_notification.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_set_message_handler.js');
 
 suite('system/NotificationsSystemMessage >', function() {
   var subject;

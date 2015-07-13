@@ -5,7 +5,7 @@ requireApp('system/test/unit/mock_app_window_manager.js');
 requireApp('system/test/unit/mock_layout_manager.js');
 requireApp('system/test/unit/mock_system_dialog_manager.js');
 requireApp('system/test/unit/mock_keyboard_manager.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 
 var mocksForSystemDialog = new MocksHelper([
   'AppWindowManager',

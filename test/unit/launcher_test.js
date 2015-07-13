@@ -2,8 +2,8 @@
           Service, Deferred */
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-requireApp('system/shared/test/unit/mocks/mock_lazy_loader.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_lazy_loader.js');
 requireApp('system/test/unit/mock_asyncStorage.js');
 requireApp('system/test/unit/deferred.js');
 requireApp('system/js/service.js');

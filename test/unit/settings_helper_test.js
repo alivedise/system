@@ -1,8 +1,8 @@
 /* global SettingsHelper, MockNavigatorSettings */
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-requireApp('system/shared/js/settings_helper.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/settings_helper/settings_helper.js');
 
 suite('SettingsHelper', function() {
   var realMozSettings;

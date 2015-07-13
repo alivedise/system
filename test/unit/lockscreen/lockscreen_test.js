@@ -2,15 +2,15 @@
           MockService */
 'use strict';
 
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_image.js');
-require('/shared/test/unit/mocks/mock_canvas.js');
-require('/shared/test/unit/mocks/mock_canvas_rendering_context_2d.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_image.js');
+require('/shared/unit_test_mocks/mock_canvas.js');
+require('/shared/unit_test_mocks/mock_canvas_rendering_context_2d.js');
 requireApp('system/lockscreen/js/lockscreen_charging.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_telephony.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_telephony.js');
 requireApp('system/test/unit/mock_app_window.js');
 requireApp('system/test/unit/mock_lockscreen_slide.js');
 requireApp('system/test/unit/mock_lazy_loader.js');

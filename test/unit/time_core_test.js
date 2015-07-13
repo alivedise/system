@@ -4,8 +4,8 @@
 'use strict';
 
 requireApp('system/test/unit/mock_lazy_loader.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 requireApp('system/test/unit/mock_ftu_launcher.js');
 requireApp('system/js/service.js');
 requireApp('system/js/base_module.js');

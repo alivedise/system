@@ -1,7 +1,7 @@
 'use strict';
 /* global FakeMusic */
 
-// XXX: After Dominic lands shared/js/media/remote_controls.js, we should switch
+// XXX: After Dominic lands shared/media/remote_controls/media/remote_controls.js, we should switch
 // to using that for our IAC code, since that's way closer to reality.
 
 var FakeMusicComms = {

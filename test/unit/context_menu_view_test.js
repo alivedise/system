@@ -1,7 +1,7 @@
 /* global MocksHelper, AppWindow, ContextMenuView, Service */
 
 'use strict';
-require('/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_service.js');
 requireApp('system/test/unit/mock_app_window.js');
 requireApp('system/js/base_ui.js');
 requireApp('system/js/context_menu_view.js');

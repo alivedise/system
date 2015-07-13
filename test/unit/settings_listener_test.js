@@ -1,8 +1,8 @@
 'use strict';
 /* global MockNavigatorSettings, SettingsListener */
 
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-require('/shared/js/settings_listener.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+require('/shared/settings_listener/settings_listener.js');
 
 suite('shared/SettingsListener', function() {
   var realSettings;

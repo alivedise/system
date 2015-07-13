@@ -34,7 +34,7 @@
       var data = e.detail.source.data;
       switch (data.type) {
         case 'url':
-          LazyLoader.load(['shared/js/url_helper.js']).then(function() {
+          LazyLoader.load(['shared/url_helper/url_helper.js']).then(function() {
             handleOpenUrl(
               UrlHelper.getUrlFromInput(data.url), data.isPrivate);
           }).catch(function(err) {

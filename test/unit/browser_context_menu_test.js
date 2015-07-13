@@ -3,14 +3,14 @@
 
 'use strict';
 
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
-require('/shared/test/unit/mocks/mock_icons_helper.js');
-require('/shared/test/unit/mocks/mock_moz_activity.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
+require('/shared/unit_test_mocks/mock_icons_helper.js');
+require('/shared/unit_test_mocks/mock_moz_activity.js');
 requireApp('system/test/unit/mock_orientation_manager.js');
 requireApp('system/test/unit/mock_app_window.js');
 requireApp('system/test/unit/mock_context_menu_view.js');
-require('/shared/test/unit/mocks/mock_moz_activity.js');
+require('/shared/unit_test_mocks/mock_moz_activity.js');
 require('/js/browser_config_helper.js');
 require('/js/service.js');
 require('/js/base_module.js');

@@ -25,10 +25,10 @@ requireApp('system/test/unit/mock_apps_mgmt.js');
 requireApp('system/test/unit/mock_chrome_event.js');
 requireApp('system/test/unit/mock_utility_tray.js');
 requireApp('system/test/unit/mock_navigator_battery.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
-requireApp('system/shared/test/unit/mocks/mock_custom_dialog.js');
-requireApp('system/shared/test/unit/mocks/mock_manifest_helper.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_custom_dialog.js');
+requireApp('system/shared/unit_test_mocks/mock_manifest_helper.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 
 var mocksHelperForUpdatable = new MocksHelper([
   'CustomDialog',

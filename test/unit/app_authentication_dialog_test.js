@@ -5,7 +5,7 @@
 /* global MockL10n */
 
 requireApp('system/test/unit/mock_app_window.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 var mocksForAppAuthDialog = new MocksHelper([
   'AppWindow'

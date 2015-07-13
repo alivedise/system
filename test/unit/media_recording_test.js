@@ -2,7 +2,7 @@
 'use strict';
 
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
 requireApp('system/js/service.js');
 requireApp('system/js/base_ui.js');

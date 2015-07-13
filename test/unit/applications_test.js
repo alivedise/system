@@ -3,7 +3,7 @@
 
 requireApp('system/test/unit/mock_apps_mgmt.js');
 requireApp('system/test/unit/mock_app.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 requireApp('system/js/applications.js');
 
 suite('applications test', function() {

@@ -4,10 +4,10 @@
 
 'use strict';
 
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 requireApp('system/test/unit/mock_applications.js');
-requireApp('system//shared/test/unit/mocks/mock_simslot.js');
-requireApp('system//shared/test/unit/mocks/mock_simslot_manager.js');
+requireApp('system//shared/unit_test_mocks/mock_simslot.js');
+requireApp('system//shared/unit_test_mocks/mock_simslot_manager.js');
 
 requireApp('system/js/service.js');
 requireApp('system/js/base_ui.js');

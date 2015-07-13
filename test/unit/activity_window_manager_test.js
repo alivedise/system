@@ -2,7 +2,7 @@
 /* global MocksHelper, ActivityWindowManager, ActivityWindow,
    AppWindow, MockService */
 
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 requireApp('system/test/unit/mock_app_window.js');
 requireApp('system/test/unit/mock_activity_window.js');
 requireApp('system/test/unit/mock_popup_window.js');

@@ -10,14 +10,14 @@
 
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_service.js');
-requireApp('system/shared/test/unit/mocks/mock_manifest_helper.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_manifest_helper.js');
 requireApp('system/test/unit/mock_applications.js');
 requireApp('system/test/unit/mock_app_window.js');
 requireApp('system/test/unit/mock_homescreen_window.js');
 requireApp('system/test/unit/mock_homescreen_launcher.js');
-requireApp('system/shared/test/unit/mocks/mock_manifest_helper.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_manifest_helper.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 
 var mocksForAppWindowFactory = new MocksHelper([
   'AppWindow', 'HomescreenLauncher',

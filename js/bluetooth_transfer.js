@@ -592,7 +592,7 @@ var BluetoothTransfer = {
     var storage = navigator.getDeviceStorage(storageType);
     var getreq = storage.get(filePath);
 
-    LazyLoader.load(['shared/js/mime_mapper.js']).then(() => {
+    LazyLoader.load(['shared/mime_mapper/mime_mapper.js']).then(() => {
       getreq.onerror = () => {
         var msg = 'failed to get file:' +
                   filePath + getreq.error.name +

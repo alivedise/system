@@ -3,8 +3,8 @@
 
 'use strict';
 
-require('/shared/test/unit/mocks/mock_navigator_moz_icc_manager.js');
-requireApp('system/shared/js/mobile_operator.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_icc_manager.js');
+requireApp('system/shared/mobile_operator/mobile_operator.js');
 
 suite('shared/MobileOperator', function() {
   var MockMobileConnection;

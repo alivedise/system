@@ -7,7 +7,7 @@
 requireApp('/system/test/unit/fxa_test/load_element_helper.js');
 
 // Real code
-require('/shared/js/utilities.js');
+require('/shared/utilities/utilities.js');
 requireApp('system/fxa/js/fxam_module.js');
 requireApp('system/fxa/js/fxam_states.js');
 requireApp('system/fxa/js/fxam_manager.js');
@@ -16,12 +16,12 @@ requireApp('system/fxa/js/fxam_overlay.js');
 requireApp('system/fxa/js/fxam_error_overlay.js');
 
 // Mockuped code
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 requireApp('/system/test/unit/fxa_test/mock_fxam_ui.js');
 requireApp('/system/test/unit/fxa_test/mock_fxam_server_request.js');
 requireApp('/system/test/unit/fxa_test/mock_fxam_errors.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
-require('/shared/test/unit/mocks/mocks_helper.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
+require('/shared/unit_test_mocks/mocks_helper.js');
 require('/shared/test/unit/load_body_html_helper.js');
 
 // Code to test

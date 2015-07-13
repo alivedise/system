@@ -2,7 +2,7 @@
 
 'use strict';
 
-requireApp('system/shared/js/shrinking_ui.js');
+requireApp('system/shared/shrinking_ui/shrinking_ui.js');
 requireApp('system/test/unit/mock_orientation_manager.js');
 requireApp('system/test/unit/mock_app_window.js');
 

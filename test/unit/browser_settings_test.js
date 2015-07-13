@@ -2,9 +2,9 @@
 /* global BrowserSettings, MockNavigatormozApps,
    MockNavigatorSettings, MockService, MocksHelper */
 
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_apps.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_apps.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 
 
 var mocksForBrowserSettings = new MocksHelper([

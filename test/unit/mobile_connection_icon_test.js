@@ -3,18 +3,18 @@
 'use strict';
 
 
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 requireApp('system/js/base_ui.js');
 requireApp('system/js/base_icon.js');
 requireApp('system/js/mobile_connection_icon.js');
 requireApp('system/js/signal_icon.js');
 requireApp('system/js/roaming_icon.js');
 requireApp('system/test/unit/mock_radio.js');
-requireApp('system/shared/test/unit/mocks/mock_simslot.js');
-requireApp('system/shared/test/unit/mocks/mock_simslot_manager.js');
+requireApp('system/shared/unit_test_mocks/mock_simslot.js');
+requireApp('system/shared/unit_test_mocks/mock_simslot_manager.js');
 requireApp(
-  'system/shared/test/unit/mocks/mock_navigator_moz_mobile_connection.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+  'system/shared/unit_test_mocks/mock_navigator_moz_mobile_connection.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 var mocksForMobileConnectionIcon = new MocksHelper([
   'SIMSlotManager',

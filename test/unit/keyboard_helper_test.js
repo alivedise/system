@@ -3,12 +3,12 @@
 // Tests the keyboard_helper.js from shared
 'use strict';
 
-require('/shared/test/unit/mocks/mock_manifest_helper.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_manifest_helper.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 
-require('/shared/js/input_mgmt/input_app_list.js');
+require('/shared/input_mgmt/input_app_list/input_mgmt/input_app_list.js');
 
-require('/shared/js/keyboard_helper.js');
+require('/shared/keyboard_helper/keyboard_helper.js');
 
 suite('KeyboardHelper', function() {
   var mocksHelper = new MocksHelper(['ManifestHelper']).init();

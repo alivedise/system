@@ -3,11 +3,11 @@
 
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
-require('/shared/test/unit/mocks/mock_async_storage.js');
-require('/shared/test/unit/mocks/mock_service.js');
-require('/shared/test/unit/mocks/mock_navigator_datastore.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
+require('/shared/unit_test_mocks/mock_async_storage.js');
+require('/shared/unit_test_mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_navigator_datastore.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
 
 requireApp('system/js/service.js');
 requireApp('system/js/base_module.js');

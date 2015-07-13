@@ -2,7 +2,7 @@
 /* global MocksHelper, HomescreenWindow, HomescreenLauncher,
           MockService, BaseModule */
 
-require('/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_service.js');
 
 requireApp('system/test/unit/mock_homescreen_window.js');
 requireApp('system/test/unit/mock_homescreen_launcher.js');

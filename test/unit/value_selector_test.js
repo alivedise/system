@@ -3,9 +3,9 @@
 /* global loadBodyHTML, MocksHelper, MockL10n, AppWindow, ValueSelector */
 
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
-requireApp('system/shared/js/sanitizer.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
+requireApp('system/shared/sanitizer/sanitizer.js');
 requireApp('system/test/unit/mock_app_window.js');
 
 var mocksForValueSelector = new MocksHelper([

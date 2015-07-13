@@ -3,13 +3,13 @@
 'use strict';
 
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/js/sanitizer.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_service.js');
+require('/shared/sanitizer/sanitizer.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_service.js');
 requireApp('system/test/unit/mock_applications.js');
 requireApp('system/test/unit/mock_app_window.js');
-requireApp('system/shared/test/unit/mocks/mock_manifest_helper.js');
+requireApp('system/shared/unit_test_mocks/mock_manifest_helper.js');
 
 // to emulate permission events
 function sendChromeEvent(evt_type, evt_permission, remember) {

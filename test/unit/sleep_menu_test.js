@@ -5,11 +5,11 @@
 /* global SleepMenu */
 /* global MockService */
 
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_power.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_telephony.js');
-require('/shared/test/unit/mocks/mock_service.js');
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_power.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_telephony.js');
+require('/shared/unit_test_mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
 requireApp('system/js/sleep_menu.js');
 
 var mocksForSleepMenu = new MocksHelper([

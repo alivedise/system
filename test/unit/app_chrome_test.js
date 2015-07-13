@@ -3,13 +3,13 @@
 /* exported MockBookmarksDatabase */
 'use strict';
 
-require('/shared/js/component_utils.js');
-require('/shared/js/event_safety.js');
-require('/shared/elements/gaia_progress/script.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
-require('/shared/test/unit/mocks/mock_service.js');
-require('/shared/test/unit/mocks/mock_promise.js');
+require('/shared/component_utils/component_utils.js');
+require('/shared/event_safety/event_safety.js');
+require('/shared/gaia_progress/script.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
+require('/shared/unit_test_mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_promise.js');
 requireApp('system/test/unit/mock_app_window.js');
 requireApp('system/test/unit/mock_popup_window.js');
 requireApp('system/test/unit/mock_modal_dialog.js');

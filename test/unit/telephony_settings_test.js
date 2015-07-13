@@ -1,8 +1,8 @@
 'use strict';
 /* global MocksHelper, MockSettingsHelper, BaseModule */
 
-requireApp('system/shared/test/unit/mocks/mock_settings_helper.js');
-requireApp('system/shared/test/unit/mocks/mock_lazy_loader.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_helper.js');
+requireApp('system/shared/unit_test_mocks/mock_lazy_loader.js');
 requireApp('system/js/service.js');
 requireApp('system/js/base_module.js');
 requireApp('system/js/telephony_settings.js');

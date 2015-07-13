@@ -3,11 +3,11 @@
           MockLazyLoader, Service, MockL10n */
 'use strict';
 
-require('/shared/test/unit/mocks/mock_navigator_moz_set_message_handler.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_bluetooth.js');
-require('/shared/test/unit/mocks/mock_settings_listener.js');
-require('/shared/test/unit/mocks/mock_event_target.js');
-require('/shared/test/unit/mocks/mock_dom_request.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_set_message_handler.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_bluetooth.js');
+require('/shared/unit_test_mocks/mock_settings_listener.js');
+require('/shared/unit_test_mocks/mock_event_target.js');
+require('/shared/unit_test_mocks/mock_dom_request.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
 requireApp('system/js/service.js');
 requireApp('system/js/base_module.js');
@@ -17,7 +17,7 @@ requireApp('system/js/bluetooth_icon.js');
 requireApp('system/js/bluetooth_transfer_icon.js');
 requireApp('system/js/bluetooth_headphone_icon.js');
 requireApp('system/js/bluetooth.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 function switchReadOnlyProperty(originObject, propName, targetObj) {
   Object.defineProperty(originObject, propName, {

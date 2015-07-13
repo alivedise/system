@@ -1,7 +1,7 @@
 'use strict';
 /* global MobileIDErrorOverlay */
 
-require('/shared/js/utilities.js');
+require('/shared/utilities/utilities.js');
 requireApp('system/mobile_id/js/error_overlay.js');
 require('/shared/test/unit/load_body_html_helper.js');
 

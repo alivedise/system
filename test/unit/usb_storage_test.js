@@ -2,9 +2,9 @@
 /* global MocksHelper, MockSettingsListener, UsbStorage, MockService,
           MockNavigatorSettings */
 
-require('/shared/test/unit/mocks/mock_service.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
+require('/shared/unit_test_mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
 requireApp('system/js/usb_storage.js');
 
 var mocksForStorage = new MocksHelper([

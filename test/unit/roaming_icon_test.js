@@ -2,14 +2,14 @@
           MockL10n, MockSIMSlot, MockNavigatorMozMobileConnection */
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 requireApp('system/js/base_ui.js');
 requireApp('system/js/base_icon.js');
 requireApp('system/js/roaming_icon.js');
-requireApp('system/shared/test/unit/mocks/mock_simslot.js');
+requireApp('system/shared/unit_test_mocks/mock_simslot.js');
 requireApp(
-  'system/shared/test/unit/mocks/mock_navigator_moz_mobile_connection.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+  'system/shared/unit_test_mocks/mock_navigator_moz_mobile_connection.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 var mocksForRoamingIcon = new MocksHelper([
   'Service'

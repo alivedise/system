@@ -3,11 +3,11 @@
 /* global MocksHelper, InputWindowManager, MockKeyboardManager, MockPromise,
    InputWindow, MockSettingsListener, MockService */
 
-require('/shared/test/unit/mocks/mock_custom_event.js');
-require('/shared/test/unit/mocks/mock_settings_listener.js');
-require('/shared/test/unit/mocks/mock_promise.js');
+require('/shared/unit_test_mocks/mock_custom_event.js');
+require('/shared/unit_test_mocks/mock_settings_listener.js');
+require('/shared/unit_test_mocks/mock_promise.js');
 require('/test/unit/mock_orientation_manager.js');
-require('/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_service.js');
 require('/test/unit/mock_keyboard_manager.js');
 require('/js/input_window_manager.js');
 

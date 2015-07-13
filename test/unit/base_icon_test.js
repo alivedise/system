@@ -1,10 +1,10 @@
 /* global BaseIcon, Service, MockL10n, MocksHelper */
 'use strict';
 
-require('/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_service.js');
 requireApp('system/js/base_ui.js');
 requireApp('system/js/base_icon.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 suite('system/BaseIcon', function() {
   var subject, manager, realL10n;

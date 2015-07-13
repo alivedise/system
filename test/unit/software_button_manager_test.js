@@ -9,10 +9,10 @@
 /* global MockService */
 
 requireApp('system/test/unit/mock_applications.js');
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 requireApp('system/test/unit/mock_screen_layout.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 
 var mocksForSftButtonManager = new MocksHelper([
   'Service',

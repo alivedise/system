@@ -4,9 +4,9 @@
 'use strict';
 
 requireApp(
-  'system/shared/test/unit/mocks/mock_navigator_moz_mobile_connections.js');
+  'system/shared/unit_test_mocks/mock_navigator_moz_mobile_connections.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 requireApp('system/test/unit/mock_wifi_manager.js');
 requireApp('system/test/unit/mock_airplane_mode_service_helper.js');
 requireApp('system/js/service.js');

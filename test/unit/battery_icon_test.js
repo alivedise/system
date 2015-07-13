@@ -6,7 +6,7 @@ requireApp('system/js/base_ui.js');
 requireApp('system/js/base_icon.js');
 requireApp('system/js/battery_icon.js');
 requireApp('system/test/unit/mock_navigator_battery.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 suite('system/BatteryIcon', function() {
   var subject, realMozL10n;

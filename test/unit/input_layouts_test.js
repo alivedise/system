@@ -6,11 +6,11 @@
 
 require('/test/unit/mock_keyboard_manager.js');
 require('/test/unit/mock_custom_event.js');
-require('/shared/test/unit/mocks/mock_keyboard_helper.js');
-require('/shared/test/unit/mocks/mock_custom_event.js');
-require('/shared/test/unit/mocks/mock_event_target.js');
-require('/shared/test/unit/mocks/mock_dom_request.js');
-require('/shared/js/input_mgmt/mock_navigator_mozsettings.js');
+require('/shared/unit_test_mocks/mock_keyboard_helper.js');
+require('/shared/unit_test_mocks/mock_custom_event.js');
+require('/shared/unit_test_mocks/mock_event_target.js');
+require('/shared/unit_test_mocks/mock_dom_request.js');
+require('/shared/input_mgmt/mock_navigator_mozsettings/input_mgmt/mock_navigator_mozsettings.js');
 
 require('/js/input_layouts.js');
 

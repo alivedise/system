@@ -2,8 +2,8 @@
 
 /* globals InputWindow, AppWindow */
 
-require('/shared/test/unit/mocks/mock_service.js');
-require('/shared/test/unit/mocks/mock_manifest_helper.js');
+require('/shared/unit_test_mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_manifest_helper.js');
 requireApp('system/test/unit/mock_app_transition_controller.js');
 
 require('/js/browser_frame.js');

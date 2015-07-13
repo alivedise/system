@@ -5,20 +5,20 @@
    Service, MockService */
 'use strict';
 
-require('/shared/test/unit/mocks/mock_navigator_moz_set_message_handler.js');
-require('/shared/test/unit/mocks/mock_event_target.js');
-require('/shared/test/unit/mocks/mock_dom_request.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_set_message_handler.js');
+require('/shared/unit_test_mocks/mock_event_target.js');
+require('/shared/unit_test_mocks/mock_dom_request.js');
 require('/test/unit/mock_navigator_get_device_storage.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_bluetooth_v2.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_notification_helper.js');
-require('/shared/js/mime_mapper.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_bluetooth_v2.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_notification_helper.js');
+require('/shared/mime_mapper/mime_mapper.js');
 require('/test/unit/mock_utility_tray.js');
 require('/test/unit/mock_nfc_handover_manager.js');
 require('/test/unit/mock_activity.js');
-require('/shared/test/unit/mocks/mock_service.js');
-require('/shared/test/unit/mocks/mock_custom_dialog.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
+require('/shared/unit_test_mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_custom_dialog.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
 
 var mocksForBluetoothTransfer = new MocksHelper([
   'NotificationHelper',

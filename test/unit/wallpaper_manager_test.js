@@ -3,10 +3,10 @@
 /* global WallpaperManager, MockLazyLoader, ImageUtils,
    MockNavigatorSettings, MockService, MocksHelper */
 
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-require('/shared/js/image_utils.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+require('/shared/image_utils/image_utils.js');
 require('/apps/system/js/wallpaper_manager.js');
-require('/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_service.js');
 require('/apps/system/test/unit/mock_lazy_loader.js');
 
 var mocksForWallpaperManager = new MocksHelper([

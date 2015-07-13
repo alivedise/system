@@ -5,18 +5,18 @@
            MockNavigatormozSetMessageHandler, MockDOMRequest, MockPromise,
            MockMozBluetooth, MockBTAdapter, NfcConnectSystemDialog,
            MockService */
-require('/shared/test/unit/mocks/mock_navigator_moz_set_message_handler.js');
-require('/shared/test/unit/mocks/mock_moz_ndefrecord.js');
-require('/shared/test/unit/mocks/mock_moz_nfc.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_bluetooth.js');
-require('/shared/test/unit/mocks/mock_event_target.js');
-require('/shared/test/unit/mocks/mock_dom_request.js');
-require('/shared/test/unit/mocks/mock_notification_helper.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-require('/shared/test/unit/mocks/mock_promise.js');
-require('/shared/test/unit/mocks/mock_service.js');
-require('/shared/js/nfc_utils.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_set_message_handler.js');
+require('/shared/unit_test_mocks/mock_moz_ndefrecord.js');
+require('/shared/unit_test_mocks/mock_moz_nfc.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_bluetooth.js');
+require('/shared/unit_test_mocks/mock_event_target.js');
+require('/shared/unit_test_mocks/mock_dom_request.js');
+require('/shared/unit_test_mocks/mock_notification_helper.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_promise.js');
+require('/shared/unit_test_mocks/mock_service.js');
+require('/shared/nfc_utils/nfc_utils.js');
 requireApp('system/test/unit/mock_system_nfc_connect_dialog.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
 requireApp('system/test/unit/mock_activity.js');

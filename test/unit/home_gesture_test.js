@@ -5,8 +5,8 @@
 /* global MockScreenLayout */
 /* global ScreenLayout */
 
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 requireApp('system/test/unit/mock_screen_layout.js');
 
 requireApp('system/js/home_gesture.js');

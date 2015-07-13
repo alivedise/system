@@ -3,7 +3,7 @@
 'use strict';
 
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 requireApp('system/test/unit/mock_app_window_manager.js');
 
 var mocksForMediaPlayback = new MocksHelper([

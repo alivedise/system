@@ -1,7 +1,7 @@
 /* global FxaModuleErrors, MockL10n */
 'use strict';
 
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 requireApp('system/fxa/js/fxam_errors.js');
 
 suite('Error manager', function() {

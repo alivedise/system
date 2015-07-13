@@ -1,7 +1,7 @@
 'use strict';
 /* global MockEventTarget */
 
-require('/shared/test/unit/mocks/mock_event_target.js');
+require('/shared/unit_test_mocks/mock_event_target.js');
 
 suite('MockEventTarget', function() {
   test('dispatchEvent()', function(done) {

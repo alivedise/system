@@ -1,10 +1,10 @@
 'use strict';
 
 /* globals NfcUtils, MockNfc, MocksHelper, MockService, BaseModule */
-require('/shared/js/utilities.js');
-require('/shared/js/nfc_utils.js');
-require('/shared/test/unit/mocks/mock_service.js');
-require('/shared/test/unit/mocks/mock_moz_ndefrecord.js');
+require('/shared/utilities/utilities.js');
+require('/shared/nfc_utils/nfc_utils.js');
+require('/shared/unit_test_mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_moz_ndefrecord.js');
 requireApp('system/test/unit/mock_nfc.js');
 requireApp('system/js/base_module.js');
 requireApp('system/js/nfc_handler.js');

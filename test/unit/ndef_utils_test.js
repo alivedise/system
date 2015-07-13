@@ -3,8 +3,8 @@
 /* globals MocksHelper, NDEFUtils, NDEF, NfcUtils,
            MozNDEFRecord */
 
-require('/shared/test/unit/mocks/mock_moz_ndefrecord.js');
-require('/shared/js/nfc_utils.js');
+require('/shared/unit_test_mocks/mock_moz_ndefrecord.js');
+require('/shared/nfc_utils/nfc_utils.js');
 requireApp('system/js/ndef_utils.js');
 
 var mocksForNfcUtils = new MocksHelper([

@@ -6,9 +6,9 @@
 'use strict';
 
 require('/test/unit/mock_wifi_manager.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_power.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-require('/shared/test/unit/mocks/mock_settings_listener.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_power.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_settings_listener.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
 requireApp('system/test/unit/mock_ftu_launcher.js');
 requireApp('system/js/service.js');

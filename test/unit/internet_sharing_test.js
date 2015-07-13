@@ -4,7 +4,7 @@
 /* global MockNavigatorSettings */
 /* global Service */
 
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 requireApp('system/test/unit/mock_modal_dialog.js');
 requireApp('system/js/service.js');
 requireApp('system/js/internet_sharing.js');

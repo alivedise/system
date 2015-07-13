@@ -4,13 +4,13 @@
 
 require('/js/browser.js');
 require('/js/browser_config_helper.js');
-require('/shared/js/event_safety.js');
+require('/shared/event_safety/event_safety.js');
 requireApp('system/test/unit/mock_app_window.js');
 requireApp('system/test/unit/mock_search_window.js');
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
-requireApp('system/shared/test/unit/mocks/mock_settings_url.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
-requireApp('system/shared/test/unit/mocks/mock_promise.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_url.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_promise.js');
 requireApp('system/test/unit/mock_iac_handler.js');
 requireApp('system/test/unit/mock_utility_tray.js');
 

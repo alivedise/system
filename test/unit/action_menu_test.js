@@ -5,8 +5,8 @@ require('/shared/test/unit/load_body_html_helper.js');
 requireApp('system/js/base_ui.js');
 requireApp('system/js/system_dialog.js');
 requireApp('system/js/action_menu.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/js/event_safety.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/event_safety/event_safety.js');
 
 suite('ActionMenu', function() {
   var rafStub, realL10n, stubById, actionMenu, systemHideStub,

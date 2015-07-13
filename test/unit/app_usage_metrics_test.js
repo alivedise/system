@@ -4,21 +4,21 @@
           MockSIMSlotManager, MockAppsMgmt, MockApp, MockApplications,
           MockNavigatorMozTelephony, TelemetryRequest, MockLazyLoader  */
 
-require('/shared/js/settings_listener.js');
-require('/shared/js/telemetry.js');
-require('/shared/js/uuid.js');
+require('/shared/settings_listener/settings_listener.js');
+require('/shared/telemetry/telemetry.js');
+require('/shared/uuid/uuid.js');
 requireApp('system/test/unit/mock_asyncStorage.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
 requireApp('system/js/app_usage_metrics.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 
-require('/shared/test/unit/mocks/mock_simslot_manager.js');
-require('/shared/test/unit/mocks/mock_simslot.js');
+require('/shared/unit_test_mocks/mock_simslot_manager.js');
+require('/shared/unit_test_mocks/mock_simslot.js');
 
 requireApp('system/test/unit/mock_apps_mgmt.js');
 requireApp('system/test/unit/mock_app.js');
 requireApp('system/test/unit/mock_applications.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_telephony.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_telephony.js');
 
 /*
  * This test suite has several sub-suites that verify that:

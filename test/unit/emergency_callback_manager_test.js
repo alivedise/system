@@ -8,7 +8,7 @@ requireApp('system/js/base_ui.js');
 requireApp('system/js/base_icon.js');
 requireApp('system/js/emergency_callback_icon.js');
 requireApp('system/js/emergency_callback_manager.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_mobile_connections.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_mobile_connections.js');
 require('/shared/test/unit/load_body_html_helper.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
 

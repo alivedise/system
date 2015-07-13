@@ -3,8 +3,8 @@
 /* globals NfcConnectSystemDialog, document, MockL10n, MocksHelper,
    MockService */
 
-require('/shared/test/unit/mocks/mock_l10n.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 
 var mocksForNfcConnectDialog = new MocksHelper([
   'Service',

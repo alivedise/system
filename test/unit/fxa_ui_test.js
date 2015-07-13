@@ -4,7 +4,7 @@
 
 require('/js/fx_accounts_u_i.js');
 require('/test/unit/mock_lazy_loader.js');
-require('/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_service.js');
 
 var mocksForFxAccountsUI = new MocksHelper([
   'Service', 'LazyLoader'

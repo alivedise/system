@@ -5,20 +5,20 @@
           MockNavigatorMozTelephony, MockMobileOperator, MockSIMSlotManager,
           MockSIMSlot, MockAppsMgmt, MocksHelper */
 
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 require('/apps/system/test/unit/mock_asyncStorage.js');
 require('/apps/system/test/unit/mock_xmlhttprequest.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_mobile_connections.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_icc_manager.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_telephony.js');
-require('/shared/test/unit/mocks/mock_mobile_operator.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_mobile_connections.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_icc_manager.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_telephony.js');
+require('/shared/unit_test_mocks/mock_mobile_operator.js');
 requireApp('system/test/unit/mock_apps_mgmt.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
 
-require('/shared/js/telemetry.js');
-require('/shared/js/uuid.js');
-require('/shared/test/unit/mocks/mock_simslot_manager.js');
-require('/shared/test/unit/mocks/mock_simslot.js');
+require('/shared/telemetry/telemetry.js');
+require('/shared/uuid/uuid.js');
+require('/shared/unit_test_mocks/mock_simslot_manager.js');
+require('/shared/unit_test_mocks/mock_simslot.js');
 require('/apps/system/js/ftu_ping.js');
 
 function switchReadOnlyProperty(originObject, propName, targetObj) {

@@ -3,7 +3,7 @@
 
 requireApp('system/js/identity.js');
 requireApp('system/test/unit/mock_chrome_event.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 suite('identity', function() {
   var subject;

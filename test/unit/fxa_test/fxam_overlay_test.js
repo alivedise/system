@@ -1,7 +1,7 @@
 /* global FxaModuleOverlay */
 'use strict';
 
-require('/shared/js/utilities.js');
+require('/shared/utilities/utilities.js');
 
 requireApp('system/fxa/js/fxam_module.js');
 requireApp('system/fxa/js/fxam_overlay.js');

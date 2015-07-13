@@ -4,14 +4,14 @@
           MockNavigatorSettings, MockasyncStorage,
           MockCustomDialog, MockLazyLoader, MockService */
 
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-require('/shared/test/unit/mocks/mock_settings_listener.js');
-require('/shared/test/unit/mocks/mock_custom_dialog.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/js/async_semaphore.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_settings_listener.js');
+require('/shared/unit_test_mocks/mock_custom_dialog.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/async_semaphore/async_semaphore.js');
 requireApp('system/test/unit/mock_asyncStorage.js');
 requireApp('system/test/unit/mock_navigator_moz_telephony.js');
 requireApp('system/test/unit/mock_screen_manager.js');

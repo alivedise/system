@@ -2,14 +2,14 @@
 
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_service.js');
-requireApp('system/shared/test/unit/mocks/mock_manifest_helper.js');
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_manifest_helper.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
 requireApp('system/test/unit/mock_applications.js');
 requireApp('system/test/unit/mock_app_chrome.js');
 requireApp('system/test/unit/mock_context_menu.js');
 
-requireApp('system/shared/test/unit/mocks/mock_screen_layout.js');
+requireApp('system/shared/unit_test_mocks/mock_screen_layout.js');
 
 var mocksForPopupWindow = new MocksHelper([
   'Applications', 'SettingsListener',

@@ -1,9 +1,9 @@
 'use strict';
 /* global WrapperFactory, MockAppWindow, MocksHelper */
 
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 requireApp('system/test/unit/mock_app_window.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 
 var mocksForWrapperFactory = new MocksHelper([
   'AppWindow', 'Service'

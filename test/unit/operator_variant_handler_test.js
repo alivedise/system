@@ -4,13 +4,13 @@
 
 'use strict';
 
-require('/shared/js/lazy_loader.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_icc_manager.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_mobile_connections.js');
+require('/shared/lazy_loader/lazy_loader.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_icc_manager.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_mobile_connections.js');
 
-require('/shared/js/operator_variant_helper.js');
-require('/shared/js/apn_helper.js');
+require('/shared/operator_variant_helper/operator_variant_helper.js');
+require('/shared/apn_helper/apn_helper.js');
 requireApp('system/js/operator_variant_handler.js');
 
 suite('Operator variant', function() {

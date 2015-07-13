@@ -5,8 +5,8 @@
 
 requireApp('system/js/carrier_info_notifier.js');
 requireApp('system/js/cell_broadcast_system.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_mobile_connections.js');
-require('/shared/js/l10n.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_mobile_connections.js');
+require('/shared/l10n/l10n.js');
 
 var mocksForCBS = new MocksHelper([
   'NavigatorMozMobileConnections'

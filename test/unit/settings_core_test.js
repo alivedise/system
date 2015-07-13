@@ -1,8 +1,8 @@
 /* global MocksHelper, MockNavigatorSettings, BaseModule */
 'use strict';
 
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 
 var mocksForSettingsCore = new MocksHelper([
   'LazyLoader'

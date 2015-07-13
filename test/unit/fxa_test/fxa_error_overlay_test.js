@@ -1,7 +1,7 @@
 /* global FxaModuleErrorOverlay */
 'use strict';
 
-require('/shared/js/utilities.js');
+require('/shared/utilities/utilities.js');
 requireApp('system/fxa/js/fxam_error_overlay.js');
 require('/shared/test/unit/load_body_html_helper.js');
 

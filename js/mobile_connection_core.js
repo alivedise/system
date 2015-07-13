@@ -8,9 +8,9 @@
     this.mobileConnections = mobileConnections;
   };
   MobileConnectionCore.IMPORTS = [
-    'shared/js/icc_helper.js',
-    'shared/js/simslot.js',
-    'shared/js/simslot_manager.js'
+    'shared/icc_helper/icc_helper.js',
+    'shared/simslot/simslot.js',
+    'shared/simslot_manager/simslot_manager.js'
   ];
   MobileConnectionCore.SUB_MODULES = [
     'Radio',

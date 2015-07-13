@@ -4,16 +4,16 @@
 
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_simslot_manager.js');
-requireApp('system/shared/test/unit/mocks/mock_simslot.js');
+requireApp('system/shared/unit_test_mocks/mock_simslot_manager.js');
+requireApp('system/shared/unit_test_mocks/mock_simslot.js');
 requireApp('system/test/unit/mock_simcard_dialog.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_service.js');
 requireApp('system/test/unit/mock_version_helper.js');
 requireApp('system/test/unit/mock_applications.js');
 requireApp('system/test/unit/mock_sim_lock_system_dialog.js');
-requireApp('/system/shared/test/unit/mocks/mock_ftu_launcher.js');
-requireApp('/shared/js/lazy_loader.js');
+requireApp('/system/shared/unit_test_mocks/mock_ftu_launcher.js');
+requireApp('/shared/lazy_loader/lazy_loader.js');
 requireApp('system/js/base_module.js');
 requireApp('system/js/sim_lock_manager.js');
 

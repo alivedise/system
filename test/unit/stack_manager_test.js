@@ -4,7 +4,7 @@
 
 requireApp('system/js/stack_manager.js');
 requireApp('system/test/unit/mock_app_window.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 requireApp('system/test/unit/mock_sheets_transition.js');
 
 var mocksForStackManager = new MocksHelper([

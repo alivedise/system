@@ -3,14 +3,14 @@
           ActionMenu, BaseModule, DefaultActivityHelper, MockService
 */
 
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_default_activity_helper.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_default_activity_helper.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
 requireApp('system/test/unit/mock_applications.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
-requireApp('system/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_service.js');
 requireApp('system/test/unit/mock_action_menu.js');
-requireApp('system/shared/js/manifest_helper.js');
+requireApp('system/shared/manifest_helper/manifest_helper.js');
 requireApp('system/js/base_module.js');
 
 var mocksForActivities = new MocksHelper([

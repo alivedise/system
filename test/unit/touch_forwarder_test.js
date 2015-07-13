@@ -2,7 +2,7 @@
 
 /* global TouchForwarder, MocksHelper */
 
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
 
 var mocksForTouchForwarder = new MocksHelper([
   'SettingsListener'

@@ -4,11 +4,11 @@
 
 'use strict';
 
-require('/shared/test/unit/mocks/mock_basket_client.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
-require('/shared/test/unit/mocks/mock_navigator_datastore.js');
+require('/shared/unit_test_mocks/mock_basket_client.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
+require('/shared/unit_test_mocks/mock_navigator_datastore.js');
 
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 requireApp('system/test/unit/mock_ftu_launcher.js');
 
 var mocksHelperForNewsletterManager = new MocksHelper([

@@ -11,7 +11,7 @@
 
 requireApp('system/js/carrier_info_notifier.js');
 requireApp('system/test/unit/mock_modal_dialog.js');
-require('/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_service.js');
 requireApp('system/test/unit/mock_notification_screen.js');
 
 if (typeof window.ModalDialog == 'undefined') {

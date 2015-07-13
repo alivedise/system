@@ -2,7 +2,7 @@
 'use strict';
 
 
-requireApp('system/shared/test/unit/mocks/mock_promise.js');
+requireApp('system/shared/unit_test_mocks/mock_promise.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
 requireApp('system/test/unit/mock_wifi_manager.js');
 requireApp('system/js/service.js');

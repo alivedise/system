@@ -2,7 +2,7 @@
 
 /* global IMESwitcher, MocksHelper, MockL10n */
 
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 require('/js/ime_switcher.js');
 
 var mocksForIMESwitcher = new MocksHelper([

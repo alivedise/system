@@ -1,8 +1,8 @@
 /* global OrientationManager, MocksHelper, MockService */
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
-require('/shared/test/unit/mocks/mock_service.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
+require('/shared/unit_test_mocks/mock_service.js');
 
 var mocksForOrientationManager = new MocksHelper([
   'SettingsListener', 'Service'

@@ -11,11 +11,11 @@
 */
 
 require('/js/devtools/logshake.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_notification.js');
-require('/shared/test/unit/mocks/mock_event_target.js');
-require('/shared/test/unit/mocks/mock_dom_request.js');
-require('/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_notification.js');
+require('/shared/unit_test_mocks/mock_event_target.js');
+require('/shared/unit_test_mocks/mock_dom_request.js');
+require('/shared/unit_test_mocks/mock_service.js');
 require('/test/unit/mock_activity.js');
 require('/test/unit/mock_modal_dialog.js');
 require('/test/unit/mock_navigator_get_device_storage.js');

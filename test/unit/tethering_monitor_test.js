@@ -2,7 +2,7 @@
           MockLazyLoader, MockL10n */
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 requireApp('system/test/unit/mock_lazy_loader.js');
 requireApp('system/js/service.js');
 requireApp('system/js/base_module.js');
@@ -11,7 +11,7 @@ requireApp('system/js/base_icon.js');
 requireApp('system/js/tethering_icon.js');
 requireApp('system/js/settings_core.js');
 requireApp('system/js/tethering_monitor.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 var mocksForTetheringMonitor = new MocksHelper([
   'NavigatorSettings',

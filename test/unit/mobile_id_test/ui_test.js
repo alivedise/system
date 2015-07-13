@@ -4,11 +4,11 @@
 
 requireApp('system/mobile_id/js/controller.js');
 requireApp('system/mobile_id/js/ui.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/elements/gaia-header/dist/gaia-header.js');
+require('/shared/gaia-header/dist/gaia-header.js');
 requireApp(
-  'system/shared/test/unit/mocks/mock_navigator_moz_mobile_connections.js');
+  'system/shared/unit_test_mocks/mock_navigator_moz_mobile_connections.js');
 
 suite('MobileID UI ', function() {
   var realL10n;

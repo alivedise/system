@@ -2,7 +2,7 @@
 /* global assert, MockNavigatorSettings, toneUpgrader */ 
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 requireApp('system/js/tone_upgrader.js');
 
 suite('system/ToneUpgrader', function() {

@@ -31,7 +31,7 @@
           navigator.mozApps.mgmt.setEnabled(addon, true);
 
           try {
-            LazyLoader.load(['shared/js/achievements-service.js']).then(() => {
+            LazyLoader.load(['shared/achievements-service/achievements-service.js']).then(() => {
               var achievementsService = new AchievementsService();
               var _ = navigator.mozL10n.get;
 

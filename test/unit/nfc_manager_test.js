@@ -5,16 +5,16 @@
            MockNfcHandoverManager, BaseModule, MockLazyLoader */
 
 requireApp('system/test/unit/mock_lazy_loader.js');
-require('/shared/test/unit/mocks/mock_settings_listener.js');
-require('/shared/js/nfc_utils.js');
-require('/shared/test/unit/mocks/mock_event_target.js');
-require('/shared/test/unit/mocks/mock_promise.js');
+require('/shared/unit_test_mocks/mock_settings_listener.js');
+require('/shared/nfc_utils/nfc_utils.js');
+require('/shared/unit_test_mocks/mock_event_target.js');
+require('/shared/unit_test_mocks/mock_promise.js');
 requireApp('system/test/unit/mock_app_window.js');
 requireApp('system/test/unit/mock_activity.js');
 requireApp('system/test/unit/mock_nfc.js');
 requireApp('system/test/unit/mock_nfc_handover_manager.js');
 requireApp('system/test/unit/mock_bluetooth.js');
-require('/shared/test/unit/mocks/mock_service.js');
+require('/shared/unit_test_mocks/mock_service.js');
 requireApp('system/js/base_module.js');
 requireApp('system/js/base_ui.js');
 requireApp('system/js/base_icon.js');

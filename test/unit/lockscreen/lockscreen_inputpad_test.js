@@ -1,7 +1,7 @@
  /* global LockScreenInputpad */
 'use strict';
 
-requireApp('system/shared/test/unit/mocks/mock_settings_listener.js');
+requireApp('system/shared/unit_test_mocks/mock_settings_listener.js');
 requireApp('system/lockscreen/js/lockscreen_inputpad.js');
 
 var mocks = new window.MocksHelper([

@@ -7,7 +7,7 @@ requireApp('system/test/unit/mock_fxa_client.js');
 requireApp('system/test/unit/mock_fxa_ui.js');
 requireApp('system/test/unit/mock_iac_handler.js');
 
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
 
 var MockEventListener = {};
 function MockAddEventListener(event, listener) {

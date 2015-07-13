@@ -4,14 +4,14 @@
 
 requireApp('system/js/external_storage_monitor.js');
 
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_notification.js');
-require('/shared/test/unit/mocks/mock_moz_activity.js');
-require('/shared/test/unit/mocks/mock_event_target.js');
-require('/shared/test/unit/mocks/mock_dom_request.js');
-require('/shared/test/unit/mocks/mock_navigator_getdevicestorage.js');
-require('/shared/test/unit/mocks/mock_navigator_getdevicestorages.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_notification.js');
+require('/shared/unit_test_mocks/mock_moz_activity.js');
+require('/shared/unit_test_mocks/mock_event_target.js');
+require('/shared/unit_test_mocks/mock_dom_request.js');
+require('/shared/unit_test_mocks/mock_navigator_getdevicestorage.js');
+require('/shared/unit_test_mocks/mock_navigator_getdevicestorages.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 
 var mocksForExternalStorageMonitor = new MocksHelper([
   'MozActivity'

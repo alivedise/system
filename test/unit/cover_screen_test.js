@@ -7,8 +7,8 @@ requireApp('system/js/service.js');
 requireApp('system/js/base_module.js');
 requireApp('system/js/settings_core.js');
 requireApp('system/js/cover_screen.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-requireApp('system/shared/test/unit/mocks/mock_navigator_moz_power.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+requireApp('system/shared/unit_test_mocks/mock_navigator_moz_power.js');
 
 suite('CoverScreen >', function() {
   var settingsCore, realSettings, subject, realMozPower;
