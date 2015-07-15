@@ -2,7 +2,7 @@
 /* global __dirname */
 
 var Rocketbar = require('../../../system/test/marionette/lib/rocketbar');
-var Server = require('../../../../shared/test/integration/server');
+var Server = require('/shared/test_integration/server');
 
 marionette('Rocketbar', function() {
   var client = marionette.client();

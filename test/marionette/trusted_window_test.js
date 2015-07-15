@@ -1,7 +1,7 @@
 'use strict';
 
 var Service = require('./lib/system');
-var Server = require('../../../../shared/test/integration/server');
+var Server = require('/shared/test_integration/server');
 
 var FAKE_APP_URL = 'app://fakeapp.gaiamobile.org';
 

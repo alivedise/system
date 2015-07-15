@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require('assert');
-var Server = require('../../../../shared/test/integration/server');
+var Server = require('/shared/test_integration/server');
 var Rocketbar = require('./lib/rocketbar');
 
 marionette('Browser - Chrome on browser navigation',

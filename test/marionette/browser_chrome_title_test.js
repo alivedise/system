@@ -1,6 +1,6 @@
 'use strict';
 
-var Server = require('../../../../shared/test/integration/server');
+var Server = require('/shared/test_integration/server');
 var Rocketbar = require('./lib/rocketbar');
 
 marionette('Browser Chrome - Title content', function() {

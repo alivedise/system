@@ -3,7 +3,7 @@
 var url = require('url');
 
 var AppInstall = require('./lib/app_install');
-var Server = require('../../../../shared/test/integration/server');
+var Server = require('/shared/test_integration/server');
 marionette('Software Home Button - App Install Dialog', function() {
 
   var client = marionette.client({

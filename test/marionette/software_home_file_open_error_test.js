@@ -1,7 +1,7 @@
 'use strict';
 
 var Rocketbar = require('./lib/rocketbar');
-var Server = require('../../../../shared/test/integration/server');
+var Server = require('/shared/test_integration/server');
 var assert = require('chai').assert;
 
 marionette('Software Home Button - File Open Error', function() {

@@ -1,5 +1,5 @@
 'use strict';
-var Server = require('../../../../shared/test/integration/server');
+var Server = require('/shared/test_integration/server');
 var AppInstall = require('./lib/app_install');
 var assert = require('assert');
 

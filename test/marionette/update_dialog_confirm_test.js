@@ -2,7 +2,7 @@
 
 var fs = require('fs');
 
-var SHARED_PATH = __dirname + '/../../../../shared/test/integration/';
+var SHARED_PATH = __dirname + '/shared/test_integration/';
 
 marionette('Software Home Button - Update Dialog Confirm', function() {
 

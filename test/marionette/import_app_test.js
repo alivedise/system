@@ -2,7 +2,7 @@
 /* global MozActivity */
 
 var assert = require('assert');
-var Server = require('../../../../shared/test/integration/server');
+var Server = require('/shared/test_integration/server');
 
 marionette('Import App', function() {
 

@@ -5,7 +5,7 @@ marionette('App Usage Metrics >', function() {
   var assert = require('assert');
   var url = require('url');
 
-  var Server = require('../../../../shared/test/integration/server');
+  var Server = require('/shared/test_integration/server');
   var Settings = require('../../../settings/test/marionette/app/app');
   var AppInstall = require('./lib/app_install');
   var AppUsageMetrics = require('./lib/app_usage_metrics');

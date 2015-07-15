@@ -7,7 +7,7 @@ var assert = require('assert'),
     Marionette = require('marionette-client'),
     fs = require('fs');
 
-var SHARED_PATH = __dirname + '/../../../../shared/test/integration/';
+var SHARED_PATH = __dirname + '//shared/test_integration/';
 
 marionette('notification tests', function() {
   var client = marionette.client();

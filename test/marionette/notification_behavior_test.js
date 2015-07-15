@@ -8,7 +8,7 @@ var assert = require('assert'),
 
 var SYSTEM_APP = 'app://system.gaiamobile.org';
 var SOUND_PATH = '/test/path/to/sound/file';
-var SHARED_PATH = __dirname + '/../../../../shared/test/integration/';
+var SHARED_PATH = __dirname + '//shared/test_integration/';
 
 marionette('notification behavior tests', function() {
   var client = marionette.client();

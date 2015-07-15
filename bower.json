@@ -85,6 +85,7 @@
     "uuid": "git@github.com:alivedise/uuid.git",
     "value_selector": "git@github.com:alivedise/value_selector.git",
     "version_helper": "git@github.com:alivedise/version_helper.git",
-    "web_manifest_helper": "git@github.com:alivedise/web_manifest_helper.git"
+    "web_manifest_helper": "git@github.com:alivedise/web_manifest_helper.git",
+    "test_integration": "git@github.com:alivedise/test_integration.git#~0.0.1"
   }
 }

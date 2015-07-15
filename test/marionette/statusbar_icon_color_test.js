@@ -4,7 +4,7 @@ var Rocketbar = require('../../../system/test/marionette/lib/rocketbar');
 var Bookmark = require('../../../system/test/marionette/lib/bookmark');
 var helper = require('../../../../tests/jsmarionette/helper.js');
 var SETTINGS_APP = 'app://settings.gaiamobile.org';
-var Server = require('../../../../shared/test/integration/server');
+var Server = require('/shared/test_integration/server');
 var UtilityTray = require('./lib/utility_tray');
 
 marionette('Statusbar colors', function() {

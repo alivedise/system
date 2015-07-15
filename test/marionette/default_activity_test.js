@@ -2,7 +2,7 @@
 'use strict';
 
 (function() {
-  var Server = require('../../../../shared/test/integration/server');
+  var Server = require('/shared/test_integration/server');
   var AppInstall = require('./lib/app_install');
   var ActivityCallerApp = require('./lib/activitycallerapp');
   var assert = require('assert');
