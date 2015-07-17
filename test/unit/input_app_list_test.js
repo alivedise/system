@@ -8,7 +8,7 @@ require('/shared/unit_test_mocks/mock_event_target.js');
 require('/shared/unit_test_mocks/mock_dom_request.js');
 require('/shared/input_mgmt/mock_navigator_mozsettings/input_mgmt/mock_navigator_mozsettings.js');
 
-require('/shared/input_mgmt/input_app_list/input_mgmt/input_app_list.js');
+require('/shared/input_mgmt/input_app_list.js');
 
 var KEY_THIRD_PARTY_APP_ENABLED = 'keyboard.3rd-party-app.enabled';
 var KEY_DYNAMIC_INPUTS = 'keyboard.dynamic-inputs';

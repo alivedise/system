@@ -6,7 +6,7 @@
 require('/shared/unit_test_mocks/mock_manifest_helper.js');
 require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 
-require('/shared/input_mgmt/input_app_list/input_mgmt/input_app_list.js');
+require('/shared/input_mgmt/input_app_list.js');
 
 require('/shared/keyboard_helper/keyboard_helper.js');
 
